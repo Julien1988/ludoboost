@@ -1,0 +1,30 @@
+// fonts
+
+$font-stack: 'Roboto', sans-serif;
+
+// fonts-size
+
+$font-title-size: 2.2em;
+$font-span-size: 1.2em;
+
+
+// color 
+
+$color-primary: #ea660a;
+$color-secondary: #504c4c;
+$color-tertiary: #ededed;
+$color-quaternary: #a3a0a0;
+$color-background-body:#0A0000;
+
+// gutter
+
+$gutter: 2em;
+$gutter-smale: $gutter / 2;
+$gutter-large: $gutter * 2;
+
+// border
+
+$border-size-px: 4px;
+$border-style: solid;
+$border-color: $color-primary;
+

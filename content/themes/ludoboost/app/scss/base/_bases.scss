@@ -1,0 +1,37 @@
+// body
+
+body {
+    background-color: $color-background-body;
+
+    color: $color-tertiary;
+    
+
+    
+};
+
+main {
+    margin: $gutter-smale;
+    
+}
+
+// icones
+
+i {
+    color: $color-primary;
+}
+
+// fonte-size
+
+h1 {
+    font-size: $font-title-size;
+}
+
+span {
+    font-size: $font-span-size;
+}
+
+.images {
+    width: 100%;
+
+    margin-bottom: 2em;
+}

@@ -1,0 +1,25 @@
+.header {
+    .logo-large-view {
+        display: none;
+    }
+
+    .navbar-collapse {
+
+        ul {
+
+            list-style-type: none;
+
+            a {
+                color: $color-primary;
+                padding-left: $gutter;
+                
+                
+            }
+
+            .page_item {
+                padding-bottom: $gutter;
+                padding-left: 4em;
+            }
+        }
+    }
+}

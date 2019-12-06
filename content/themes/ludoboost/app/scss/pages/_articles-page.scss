@@ -1,0 +1,291 @@
+.section-product-page {
+
+    &__section-first {
+        border-top: 3px solid $color-primary;
+        border-bottom: 3px solid $color-primary;
+        padding-bottom: $gutter;
+        padding-top: $gutter;
+        margin-bottom: $gutter;
+
+        &__container {
+            &__content {
+                &__title {
+                    color: $color-primary;
+                }
+                &__text {
+
+                }
+
+            }
+
+            &__cta {
+                margin-bottom: $gutter;
+                :hover {
+                    text-decoration: none;
+                    background-color: $color-background-body;
+                    color: $color-primary;
+                    i {
+                        color: $color-primary;
+                    }
+                }
+                a {
+                    background-color: $color-primary;
+                    color: $color-tertiary;
+                    padding-top: $gutter-smale / 2;
+                    padding-bottom: $gutter-smale / 2;
+                    padding-right: $gutter-smale / 2;
+                    padding-left: $gutter-smale / 2;
+                    
+                    border-radius: 3px;
+
+                    i {
+                        color: $color-tertiary;
+                    }
+                }
+
+            }
+        }
+
+        &__image {
+
+        }
+    }
+
+    &__section-second {
+        border-bottom: 3px solid $color-primary;
+        padding-bottom: $gutter;
+        margin-bottom: $gutter;
+
+        &__container {
+            &__content {
+                &__title {
+                    color: $color-primary;
+                }
+                &__text {
+
+                }
+
+            }
+
+            &__cta {
+                margin-bottom: $gutter;
+                :hover {
+                    text-decoration: none;
+                    background-color: $color-background-body;
+                    color: $color-primary;
+                    i {
+                        color: $color-primary;
+                    }
+                }
+                a {
+                    background-color: $color-primary;
+                    color: $color-tertiary;
+                    padding-top: $gutter-smale / 2;
+                    padding-bottom: $gutter-smale / 2;
+                    padding-right: $gutter-smale / 2;
+                    padding-left: $gutter-smale / 2;
+                    
+                    border-radius: 3px;
+
+                    i {
+                        color: $color-tertiary;
+                    }
+                }
+
+            }
+        }
+
+        &__image {
+            
+        }
+    }
+
+    &__section-third {
+        border-bottom: 3px solid $color-primary;
+        padding-bottom: $gutter;
+        margin-bottom: $gutter;
+
+        &__container {
+            &__content {
+                &__title {
+                    color: $color-primary;
+                }
+                &__text {
+
+                }
+
+            }
+
+            &__cta {
+                margin-bottom: $gutter;
+                :hover {
+                    text-decoration: none;
+                    background-color: $color-background-body;
+                    color: $color-primary;
+                    i {
+                        color: $color-primary;
+                    }
+                }
+                a {
+                    background-color: $color-primary;
+                    color: $color-tertiary;
+                    padding-top: $gutter-smale / 2;
+                    padding-bottom: $gutter-smale / 2;
+                    padding-right: $gutter-smale / 2;
+                    padding-left: $gutter-smale / 2;
+                    
+                    border-radius: 3px;
+
+                    i {
+                        color: $color-tertiary;
+                    }
+                }
+
+            }
+        }
+
+        &__image {
+            
+        }
+    }
+
+    &__section-fourth {
+        border-bottom: 3px solid $color-primary;
+        padding-bottom: $gutter;
+        margin-bottom: $gutter;
+
+        &__container {
+            &__content {
+                &__title {
+                    color: $color-primary;
+                }
+                &__text {
+
+                }
+
+            }
+
+            &__cta {
+                margin-bottom: $gutter;
+                :hover {
+                    text-decoration: none;
+                    background-color: $color-background-body;
+                    color: $color-primary;
+                    i {
+                        color: $color-primary;
+                    }
+                }
+                a {
+                    background-color: $color-primary;
+                    color: $color-tertiary;
+                    padding-top: $gutter-smale / 2;
+                    padding-bottom: $gutter-smale / 2;
+                    padding-right: $gutter-smale / 2;
+                    padding-left: $gutter-smale / 2;
+                    
+                    border-radius: 3px;
+
+                    i {
+                        color: $color-tertiary;
+                    }
+                }
+
+            }
+        }
+
+        &__image {
+            
+        }
+    }
+
+    &__gift {
+
+        border-bottom: 3px solid $color-primary;
+        padding-bottom: $gutter;
+        margin-bottom: $gutter;
+
+        text-align: center;
+        &__image {
+
+        }
+        &__container {
+
+            &__list {
+                margin-top: $gutter-smale;
+                margin-left: 6.5em;
+
+                ul {
+                    
+                    text-align: initial;
+    
+                }
+            }
+
+
+            &__title {
+                color: $color-primary;
+            }
+
+        }
+    }
+
+    &__gift {
+
+        &__image {
+            max-width: 40%;
+            margin-left: 7em;
+            
+        }
+
+        .image-first {
+            margin-bottom: $gutter;
+        }
+
+        .image-second {
+            margin-top: $gutter;
+        }
+    }
+}
+
+.section-deals {
+    &__head {
+
+        margin-bottom: $gutter-large;
+        padding-left: $gutter;
+        &__title {
+            color: $color-primary;
+        }
+    }
+
+    .section-deals__articles {
+        height: 15em;
+    }
+
+    
+
+    &__link {
+
+        :hover {
+            text-decoration: none;
+            background-color: $color-background-body;
+            color: $color-primary
+
+            
+
+        }
+
+        &__a {
+
+            background-color: $color-primary;
+            color: $color-tertiary;
+            padding: 0.5em;
+            border-radius: 3px;
+
+            
+
+            i {
+                color: $color-tertiary;
+            }
+        }
+    }
+}

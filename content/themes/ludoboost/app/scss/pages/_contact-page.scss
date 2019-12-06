@@ -1,0 +1,41 @@
+.contact-page {
+
+    form {
+        input {
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+        }
+
+        .wpcf7-submit {
+            background-color: $color-primary;
+            border: none;
+            border-radius: 3px;
+            width: 50%;
+        }
+
+        .send-button {
+            display: flex;
+            align-items: baseline;
+
+            i {
+                transform: translateX(-50px)
+            }
+        }
+
+        .fa {
+            color: $color-tertiary;
+        }
+    }
+
+    
+    .button-send-contact {
+
+        background-color: $color-primary;
+        
+    }
+
+
+}

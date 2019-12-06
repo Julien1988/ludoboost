@@ -1,0 +1,64 @@
+.button-go-back-home {
+    background-color: $color-primary;
+
+    
+
+    
+    
+}
+
+.main__footer {
+    a:hover {
+        background-color: $color-background-body;
+        color: $color-primary;
+    }
+}
+
+.social-footer {
+    i:hover {
+        
+        color: $color-tertiary;
+    }
+}
+
+.footer__contact {
+    a:hover {
+        text-decoration: none;
+        color: $color-tertiary;
+    }
+
+    
+}
+
+.contact-about {
+
+    a:hover {
+        
+        color: $color-primary;
+    }
+    .footer__contact__about {
+
+        color: $color-tertiary;
+        
+    }
+
+    
+}
+
+// send button - contact page
+
+.text-center {
+    a:hover {
+        text-decoration: none;
+        background-color: $color-tertiary;
+        color: $color-primary!important;
+        i {
+            color: $color-primary;
+        }
+    }
+
+}
+
+.icone-send-button {
+    color: $color-tertiary;  
+}

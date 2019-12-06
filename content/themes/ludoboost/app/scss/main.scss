@@ -1,0 +1,43 @@
+@charset 'UTF-8';
+
+// 1. Abstracts
+
+@import 'abstracts/variables';
+
+// 2. Vendors
+
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+@import '~bootstrap/scss/bootstrap';
+
+// 3. Base
+
+@import 'base/fonts',
+        'base/typography',
+        'base/bases';
+
+// 4. Layout
+
+@import 'layout/header',
+        'layout/posts',
+        'layout/responsive',
+        'layout/social-menu',
+        'layout/banner',
+        'layout/navigation',
+        'layout/footer';
+
+// 5. Components
+
+@import 'components/button';
+
+// 6. Pages
+
+@import 'pages/404',
+        'pages/about-page',
+        'pages/articles-list-page',
+        'pages/contact-page',
+        'pages/faq-page',
+        'pages/home',
+        'pages/articles-page',
+        'pages/legal-mentions-page';
+        
